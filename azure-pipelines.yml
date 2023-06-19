@@ -12,7 +12,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'Azure-demo'
-        repository: 'adodemo12'
+        repository: 'abhi0412/adodemo12'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(Build.BuildId)'
